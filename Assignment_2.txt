@@ -1,0 +1,10 @@
+import random
+import time
+
+while(True):
+    temp=random.randint(0,1024)
+    print(f'Temperature = {temp}')
+    if temp>600:
+        print('Temperatur is high\n ======================== ')
+
+    time.sleep(4)
